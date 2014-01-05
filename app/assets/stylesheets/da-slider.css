@@ -6,9 +6,9 @@
     margin: 0px auto 30px auto;
     overflow: hidden;
     background: rgba(252, 252, 252, 0.3) url('../img/textures1.png') repeat;
-    border-top: 1px solid #E0E0E0;
-    border-bottom: 1px solid #E0E0E0;
-    -webkit-box-shadow: inset 0px 0px 3px rgba(80, 80, 80, 0.1);
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    -webkit-box-shadow: inset 1px 1px 3px rgba(80, 80, 80, 0.1);
     box-shadow: inset 0px 0px 3px rgba(80, 80, 80, 0.1);
     -webkit-transition: background-position 1.4s ease-in-out 0.3s;
     -moz-transition: background-position 1.4s ease-in-out 0.3s;
@@ -54,7 +54,7 @@
     top: 60px;
     font-weight: bold;
     white-space: nowrap;
-    text-shadow: 1px 1px 1px #ccc;
+    text-shadow: 2px 12px 1px #ccc;
     z-index: 10;
 }
 .da-slide p{
@@ -97,7 +97,7 @@
     height: 12px;
     border-radius: 50%;
     background: #3369E8;
-    margin: 3px;
+    margin: 10px;
     cursor: pointer;
     box-shadow:
         1px 1px 1px rgba(0,0,0,0.1) inset,

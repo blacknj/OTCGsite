@@ -10,7 +10,7 @@ Otcg::Application.routes.draw do
   get 'store' => 'home#store', :as => 'store'
   get 'contact' => 'home#contact', :as => 'contact'
   get 'index' => 'home#index', :as => 'index'
-  
+  get 'about' => 'home#about', :as => 'about'
 
 
 end
