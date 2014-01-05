@@ -60,11 +60,12 @@
 .da-slide p{
     width: 45%;
     top: 120px;
-    font-size: 1.25em;
-    line-height: 26px;
+    font-size: 1.5em;
+    line-height: 30px;
     height: 80px;
     overflow: hidden;
-/*     font-style: italic; */
+    font-style: italic;
+    font-family: fantasy;
 }
 .da-slide .da-img{
     text-align: center;
@@ -130,7 +131,7 @@
     width: 30px;
     border-radius: 50%;
     background: #fff;
-    border:3px solid #3369E8;
+    border:3px solid #000000;
     cursor: pointer;
     z-index: 97;
     opacity: 0;
@@ -156,7 +157,7 @@
     background: transparent url('../img/arrows.png') no-repeat top left;
 }
 .da-arrows span:hover {
-/*     background-color: #008FF8; */
+    background-color: #008FF8; 
 }
 .da-arrows span.da-arrows-next:after{
     background-position: top right;

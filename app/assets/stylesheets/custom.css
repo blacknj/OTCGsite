@@ -1,6 +1,6 @@
 /* CUSTOM CSS */
 body {
-    font: 20px "Droid Sans","Helvetica Neue",Helvetica,sans-serif;
+    font: 25px "Droid Sans","Helvetica Neue",Helvetica,sans-serif;
     line-height: 1.3em;
 }
 
@@ -19,11 +19,11 @@ a:hover {
 .custom-navbar {
     -webkit-border-radius: 0px;
     border-radius: 0px;
-    background-color: white;
+    background-color: #66ff00;
     background-image: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    box-shadow: none;
+    box-shadow: 3px 10px 5px #888888;
 }
 
 .navbar {
@@ -31,10 +31,13 @@ a:hover {
 }
 
 .navbar .custom-brand {
-    color: #222;
-    text-shadow: 1px 1px 1px #eee;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px black;
     font-weight: bold;
     padding: 10px 0 0 20px;
+    font-family: fantasy;
+    font-size: 30px;
+
 }
 
 .brand-color {
@@ -43,23 +46,29 @@ a:hover {
 
 .navbar .nav > li > a {
     padding: 11px 10px 9px;
-    color: #444;
-    text-shadow: none;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
     border-bottom: 3px solid transparent;
+    font-size: 20px
 }
 
 .navbar .nav > li > a:hover, .navbar .nav > li > a.active {
-    color: #3369E8;
-    text-shadow: none;
+    color: #blue;
+    text-shadow: 5px 5px 5px black;
     border-bottom: 3px solid #008DF8;
 }
 
 .nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover {
-    background-color: white;
+    background-color: #ffffff;
+    color: black;
+    moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    box-shadow: 1px 1px 1px black
+
 }
 
 .head-row {
-    min-height: 50px;
+    min-height: 30px;
     margin: 0px auto 30px auto;
     padding-top: 15px;
     text-shadow: 1px 1px 1px #ccc;
@@ -217,33 +226,42 @@ textarea {
 }
 
 footer {
-    color: #222;
+    color: black;
     margin: 20px 0 0 0;
     padding: 20px 0 0 0;
-    background-color: #f6f6f6;
+    background-color: #66ff00;
     background: #f6f6f6 url('../img/textures1.png') repeat;
     border-top: 1px solid #E0E0E0;
     -webkit-box-shadow: inset 0px 0px 3px rgba(80, 80, 80, 0.1);
     box-shadow: inset 0px 0px 3px rgba(80, 80, 80, 0.1);
     text-shadow: 0 1px white;
+    font-family: fantasy;
 }
 
 .final-footer {
-    color: #707070;
-    background-color: #383838;
+    color: black;
+    background-color: #66ff00;
     margin-top: 25px;
     padding: 10px 0 0 15px;
     border: none;
-    text-shadow: 0 1px #000;
+    font-size: 15px
+
+    
 }
 
 .final-footer a {
-    color: #bbb;
+    color: #ffffff;
+  ;
+  
+
 }
 
 .final-footer a:hover {
     color: white;
     text-shadow: none;
+    moz-border-radius:15px;
+    -webkit-border-radius: 15px;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .footer-ul li {
