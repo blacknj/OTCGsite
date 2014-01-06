@@ -54,16 +54,19 @@ a:hover {
 
 .navbar .nav > li > a:hover, .navbar .nav > li > a.active {
     color: #blue;
-    text-shadow: 5px 5px 5px black;
-    border-bottom: 3px solid #008DF8;
+    text-shadow: 1px 1px 1px #ffffff;
+    border-bottom: 3px solid #000000;
+    background-color: black;
+
 }
 
 .nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover {
-    background-color: #ffffff;
-    color: black;
+   
+    color: #ffffff;
+    font-weight: bold;
     moz-border-radius:15px;
     -webkit-border-radius: 15px;
-    box-shadow: 1px 1px 1px black
+    box-shadow: 1px 1px 1px #ffffff;
 
 }
 

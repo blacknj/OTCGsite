@@ -54,8 +54,12 @@
     top: 60px;
     font-weight: bold;
     white-space: nowrap;
-    text-shadow: 2px 12px 1px #ccc;
+    /* text-shadow: 5px 5px 5px #000000;*/
+    text-shadow:1.5px 0 0 #ffff83, 0 -1.5px 0 #ffff83, 0 1.5px 0 #ffff83, -1.5px 0 0 #ffff83;
     z-index: 10;
+    color: #131313;
+    text-decoration: outlined;
+
 }
 .da-slide p{
     width: 45%;
@@ -66,6 +70,7 @@
     overflow: hidden;
     font-style: italic;
     font-family: fantasy;
+    color: #888888;
 }
 .da-slide .da-img{
     text-align: center;
