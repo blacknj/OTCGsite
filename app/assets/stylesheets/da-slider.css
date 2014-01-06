@@ -94,6 +94,7 @@
     z-index: 2000;
     -moz-user-select: none;
     -webkit-user-select: none;
+    color: #000000;
 }
 .da-dots span{
     display: inline-block;
@@ -101,7 +102,7 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #3369E8;
+    background: #000000;
     margin: 10px;
     cursor: pointer;
     box-shadow:
@@ -123,7 +124,7 @@
     background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
     background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
     background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
 }
 .da-arrows{
     -moz-user-select: none;
@@ -135,8 +136,8 @@
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background: #fff;
-    border:3px solid #000000;
+    background: #000000;
+    border:3px solid #ffffff;
     cursor: pointer;
     z-index: 97;
     opacity: 0;
@@ -162,7 +163,8 @@
     background: transparent url('../img/arrows.png') no-repeat top left;
 }
 .da-arrows span:hover {
-    background-color: #008FF8; 
+    background: #ffffff;
+    border:3px solid #000000;
 }
 .da-arrows span.da-arrows-next:after{
     background-position: top right;

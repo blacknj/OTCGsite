@@ -238,7 +238,7 @@ footer {
     -webkit-box-shadow: inset 0px 0px 3px rgba(80, 80, 80, 0.1);
     box-shadow: inset 0px 0px 3px rgba(80, 80, 80, 0.1);
     text-shadow: 0 1px white;
-    font-family: fantasy;
+    font-family: Helvetica;
 }
 
 .final-footer {
